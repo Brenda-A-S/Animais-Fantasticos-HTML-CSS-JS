@@ -1,7 +1,11 @@
-import initTabNav from './tabNav.js'
-import initAnimacaoScroll from './scroll.js'
-import initAccordion from './accordion.js'
+import initTabNav from './modules/tabNav.js'
+import initAnimacaoScroll from './modules/scroll.js'
+import initAccordion from './modules/accordion.js'
+import initModal from './modules/modal.js'
+import initTooltip from './modules/tooltip.js'
 
 initTabNav()
 initAnimacaoScroll()
 initAccordion()
+initModal()
+initTooltip()
