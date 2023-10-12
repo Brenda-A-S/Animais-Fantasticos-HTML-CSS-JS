@@ -5,6 +5,8 @@ import initModal from './modules/modal.js'
 import initTooltip from './modules/tooltip.js'
 import initDropdownMenu from './modules/dropdownMenu.js'
 import initMenuMobile from './modules/menu-mobile.js'
+import initAnimaNumeros from './modules/animanumeros.js'
+import initFuncionamento from './modules/funcionamento.js'
 
 initTabNav()
 initAnimacaoScroll()
@@ -13,3 +15,5 @@ initModal()
 initTooltip()
 initDropdownMenu()
 initMenuMobile()
+initAnimaNumeros()
+initFuncionamento()
