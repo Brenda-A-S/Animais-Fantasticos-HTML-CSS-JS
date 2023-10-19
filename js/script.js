@@ -4,9 +4,10 @@ import initAccordion from './modules/accordion.js'
 import initModal from './modules/modal.js'
 import initTooltip from './modules/tooltip.js'
 import initDropdownMenu from './modules/dropdownMenu.js'
-import initMenuMobile from './modules/menu-mobile.js'
-import initAnimaNumeros from './modules/animanumeros.js'
+import initMenuMobile from './modules/menumobile.js'
 import initFuncionamento from './modules/funcionamento.js'
+import initAnimaisFetch from './modules/animaisfetch.js'
+import initFetchBitcoin from './modules/btcfetch.js'
 
 initTabNav()
 initAnimacaoScroll()
@@ -15,5 +16,6 @@ initModal()
 initTooltip()
 initDropdownMenu()
 initMenuMobile()
-initAnimaNumeros()
 initFuncionamento()
+initAnimaisFetch()
+initFetchBitcoin()
