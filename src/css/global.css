@@ -28,6 +28,7 @@
     background: #faf6ed;
     color: #222;
     -webkit-font-smoothing: antialiased;
+    user-select: none;
   }
   
   .grid-container {
@@ -147,6 +148,7 @@
     margin-top: 2rem;
     margin-bottom: .5rem;
     color: #E54;
+    cursor: pointer;
   }
   
   .faq-lista dt::before {
