@@ -1,4 +1,4 @@
-import initTabNav from './modules/tabNav.js'
+import TabNav from './modules/tabNav.js'
 import initAnimacaoScroll from './modules/scroll.js'
 import Accordion from './modules/accordion.js'
 import initModal from './modules/modal.js'
@@ -12,7 +12,9 @@ import initFetchBitcoin from './modules/btcfetch.js'
 const accordion = new Accordion('[data-anime="accordion"] dt');
 accordion.init();
 
-initTabNav()
+const tabNav = new TabNav('[data-tab="menu"] li', '[data-tab="content"] section');
+tabNav.init();
+
 initAnimacaoScroll()
 initModal()
 initTooltip()
