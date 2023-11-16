@@ -7,7 +7,7 @@ import fetchBitcoin from './modules/btcfetch.js';
 import AnimacaoScroll from './modules/scroll.js';
 import DropdownMenu from './modules/dropdownMenu.js';
 import MenuMobile from './modules/menumobile.js';
-import initFuncionamento from './modules/funcionamento.js'
+import Funcionamento from './modules/funcionamento.js';
 
 const accordion = new Accordion('[data-anime="accordion"] dt');
 accordion.init();
@@ -34,4 +34,5 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]', 'active');
 menuMobile.init();
 
-initFuncionamento()
+const funcionamento = new Funcionamento('[data-semana]', 'aberto');
+funcionamento.init();
