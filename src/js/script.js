@@ -6,7 +6,7 @@ import fetchAnimais from './modules/animaisfetch.js';
 import fetchBitcoin from './modules/btcfetch.js';
 import AnimacaoScroll from './modules/scroll.js';
 import DropdownMenu from './modules/dropdownMenu.js';
-import initMenuMobile from './modules/menumobile.js'
+import MenuMobile from './modules/menumobile.js';
 import initFuncionamento from './modules/funcionamento.js'
 
 const accordion = new Accordion('[data-anime="accordion"] dt');
@@ -31,5 +31,7 @@ animacaoScroll.init();
 const dropdownMenu = new DropdownMenu('[data-dropdown]', 'active');
 dropdownMenu.init();
 
-initMenuMobile()
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]', 'active');
+menuMobile.init();
+
 initFuncionamento()
