@@ -22,7 +22,7 @@ modal.init();
 const tooltip = new Tooltip('[data-tooltip]');
 tooltip.init();
 
-fetchAnimais('https://raw.githubusercontent.com/Brenda-A-S/Animais-Fantasticos-HTML-CSS-JS/main/animaisapi.json', '.numeros-grid');
+fetchAnimais('./animaisapi.json', '.numeros-grid');
 
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 
