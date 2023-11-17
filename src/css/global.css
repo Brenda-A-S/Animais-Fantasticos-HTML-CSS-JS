@@ -18,17 +18,21 @@
   img {
     display: block;
     max-width: 100%;
-  }
+}
   
   ul {
+    padding: 0px;
+    margin: 0px;
     list-style: none;
-  }
+}
+
   
   body {
     background: #faf6ed;
     color: #222;
     -webkit-font-smoothing: antialiased;
     user-select: none;
+    margin: 0px;
   }
   
   .grid-container {
